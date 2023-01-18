@@ -1,0 +1,49 @@
+body{
+  display:block;
+  font-family:'sans-serif, arial';
+  font-size:18px;
+  background-color:indigo;
+  color:gold;
+  width:100%;
+  height:100vh;
+  padding:0;
+}
+
+header{
+  display:flex;
+  justify-content:left;
+  font-size:2.5em;
+  font-family:'verdana';
+  padding:20px;
+  margin:0;
+}
+header a{
+  color:gold;
+  text-decoration:none;
+  transition:color 1.75s;
+  cursor:pointer;
+}
+
+header a:hover{
+  color:white;
+}
+
+#stats{
+  display:flex;
+  align-items:center;
+  margin: 10px 0 0 20px;
+  position:absolute;
+  right:0;
+  top:0;
+}
+
+#credits{
+  display:flex;
+  justify-content:center;
+}
+
+#symbol{
+  font-size:1.8em;
+  margin: 0 10px;
+}
+
